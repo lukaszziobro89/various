@@ -1,5 +1,8 @@
 name: First workflow
-on: [push]
+on:
+  push:
+    tags:
+      - '*'
 defaults:
   run:
     shell: bash
