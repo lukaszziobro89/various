@@ -1,6 +1,8 @@
 name: First workflow
-#on: [push]
-
+on: [push]
+defaults:
+  run:
+    shell: bash
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
