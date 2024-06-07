@@ -2,4 +2,4 @@ boto3
 python-benedict
 s3fs==2024.6.0
 salomon==0.0.8
-requests==2.31.0
+requests==2.28.1
